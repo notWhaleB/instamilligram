@@ -3,7 +3,8 @@ import sys
 from PIL import Image
 from PIL import ImageDraw
 
-from src import filter, modifier
+import filter
+import modifier
 
 """ The script uses the selected filter or modifier to the original image and
 saves the result in the specified file.
