@@ -1,0 +1,15 @@
+Script takes two required arguments: input_filename.jpg output_filename.jpg and
+next one of filters or modifiers argument with optionally addition parameters.
+
+List of filters:
+-h : shades of gray (8-bit).
+-bw : black & white (1-bit monochrome).
+-s : sepia.
+-n : negative.
+-f C: custom filter with C color argument: red, green, yellow and other rainbow,
+or hex code (#AABBCC) of color or random.
+
+List of modifiers:
+-br N: multiple brightness on N.
+-m N: scale image on N.
+-bl k: blur image with k * k tile.
