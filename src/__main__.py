@@ -60,7 +60,6 @@ input_image = Image.open(argv[1])
 if len(argv) == 3:
     argv.append("")
 
-help("__main__")
 image_processing(argv, input_image)
 
 print("Done.")
